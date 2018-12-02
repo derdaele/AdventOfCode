@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Function.fs" />
+    <Compile Include="Collections.fs" />
     <Compile Include="Boolean.fs" />
     <Compile Include="Seq.fs" />
     <Compile Include="Parsing.fs" />
