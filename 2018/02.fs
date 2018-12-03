@@ -29,6 +29,6 @@ let solve_2 (input: InputType) =
     Seq.choose (fun a -> match Seq.tryFind (fun b -> a <> b && (dist a b) = 1) input with
                          | None -> None
                          | Some word -> Some (a, word)
-                ) input
+               ) input
     |> Seq.head
     |> reconstruct_word
