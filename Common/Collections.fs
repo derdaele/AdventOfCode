@@ -1,5 +1,7 @@
 ﻿module Common.Collections
 
+open Common.Function
+
 type Multiset<'T when 'T : comparison> = Map<'T, int>
 
 module Multiset =
@@ -16,3 +18,5 @@ module Multiset =
         with
             :? System.Collections.Generic.KeyNotFoundException as e -> false
 
+    let ofSeq x = Seq.fold (flip add) empty x
+         

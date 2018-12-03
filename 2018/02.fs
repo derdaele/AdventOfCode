@@ -13,12 +13,10 @@ let year, day = 2018, 02
 let parse (input: string) : InputType = input.Lines()
 
 // Part 1
-let letter_freq = Seq.fold (flip Multiset.add) Multiset.empty
-
 let count_freq value = Seq.filter (fun f -> Multiset.hasCount value f) >> Seq.length
 
 let solve_1 (input: InputType) =
-    let freqs = Seq.map letter_freq input
+    let freqs = Seq.map Multiset.ofSeq input
     (count_freq 2 freqs) * (count_freq 3 freqs)
 
 // Part 2
