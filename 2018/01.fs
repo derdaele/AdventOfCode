@@ -15,4 +15,4 @@ let solve_2 (input: InputType) =
     let seen = new HashSet<int>() in
     Seq.infinitely input
     |> Seq.scan (fun prev cur -> prev + cur) 0
-    |> Seq.find (Boolean.negate seen.Add)
+    |> Seq.find (seen.Add >> not)
