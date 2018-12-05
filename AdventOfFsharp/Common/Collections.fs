@@ -19,4 +19,3 @@ module Multiset =
             :? System.Collections.Generic.KeyNotFoundException as e -> false
 
     let ofSeq x = Seq.fold (flip add) empty x
-         

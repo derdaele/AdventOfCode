@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Common\Collections.fsi" />
+    <Compile Include="Common\Function.fsi" />
+    <Compile Include="Common\Function.fs" />
+    <Compile Include="Common\Collections.fs" />
+    <Compile Include="Common\Parsing.fs" />
+    <Compile Include="Common\Seq.fs" />
+    <Compile Include="2018\01.fs" />
+    <Compile Include="2018\02.fs" />
+    <Compile Include="2018\03.fs" />
+    <Compile Include="2018\04.fs" />
+    <Compile Include="2018\05.fs" />
+    <None Include="..\Inputs\**\*.*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Compile Include="00.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
