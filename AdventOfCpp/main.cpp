@@ -13,7 +13,7 @@
 
 using namespace std;
 
-namespace current_day = _2018::_05;
+namespace current_day = _2018::_07;
 
 int main()
 {
