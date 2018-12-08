@@ -36,6 +36,9 @@
     <ClInclude Include="2018\07.h">
       <Filter>Header Files\2018</Filter>
     </ClInclude>
+    <ClInclude Include="2018\08.h">
+      <Filter>Header Files\2018</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -50,16 +53,15 @@
     <ClCompile Include="2018\07.cpp">
       <Filter>Source Files\2018</Filter>
     </ClCompile>
+    <ClCompile Include="2018\08.cpp">
+      <Filter>Source Files\2018</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\Inputs\2018\02.txt" />
     <Text Include="..\Inputs\2018\03.txt" />
     <Text Include="..\Inputs\2018\04.txt" />
     <Text Include="..\Inputs\2018\05.txt" />
-    <Text Include="..\Inputs\2018\02.txt" />
-    <Text Include="..\Inputs\2018\03.txt" />
-    <Text Include="..\Inputs\2018\04.txt" />
-    <Text Include="..\Inputs\2018\05.txt" />
     <Text Include="..\Inputs\2018\02.txt">
       <Filter>Input</Filter>
     </Text>
@@ -96,7 +98,19 @@
     <Text Include="..\Inputs\2018\05.txt">
       <Filter>Input</Filter>
     </Text>
-    <Text Include="..\Inputs\**\*.txt">
+    <Text Include="..\Inputs\2018\02.txt">
+      <Filter>Input</Filter>
+    </Text>
+    <Text Include="..\Inputs\2018\03.txt">
+      <Filter>Input</Filter>
+    </Text>
+    <Text Include="..\Inputs\2018\04.txt">
+      <Filter>Input</Filter>
+    </Text>
+    <Text Include="..\Inputs\2018\05.txt">
+      <Filter>Input</Filter>
+    </Text>
+    <Text Include="..\Inputs\2018\07.txt">
       <Filter>Input</Filter>
     </Text>
     <Text Include="..\Inputs\**\*.txt">

@@ -3,7 +3,7 @@
 #include "common.h"
 #include <string>
 
-BEGIN_DAY(2018, 05)
+BEGIN_DAY(2018, 5)
 
 void solve(std::string input);
 

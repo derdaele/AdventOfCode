@@ -8,7 +8,7 @@
 #include <limits>
 
 using namespace std;
-using namespace _2018::_05;
+using namespace _2018::_5;
 
 bool should_destroy(char c1, char c2)
 {
@@ -46,7 +46,7 @@ int fully_react(string &input, char blacklist)
 	return polymer.size();
 }
 
-void _2018::_05::solve(string input)
+void _2018::_5::solve(string input)
 {
 	cout << "Part 1 = " << fully_react(input, '\0') << endl;
 

@@ -153,6 +153,7 @@
   <ItemGroup>
     <ClInclude Include="2018\05.h" />
     <ClInclude Include="2018\07.h" />
+    <ClInclude Include="2018\08.h" />
     <ClInclude Include="2018\2018.h" />
     <ClInclude Include="2018\common.h" />
     <ClInclude Include="pch.h" />
@@ -163,6 +164,7 @@
   <ItemGroup>
     <ClCompile Include="2018\05.cpp" />
     <ClCompile Include="2018\07.cpp" />
+    <ClCompile Include="2018\08.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

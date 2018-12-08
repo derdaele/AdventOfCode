@@ -16,7 +16,7 @@
 #include <cassert>
 
 using namespace std;
-using namespace _2018::_07;
+using namespace _2018::_7;
 
 std::unordered_multimap<char, char> parse(std::string input)
 {
@@ -201,7 +201,7 @@ int min_running_time(std::unordered_multimap<char, char> &graph)
 	return result;
 }
 
-void _2018::_07::solve(string input)
+void _2018::_7::solve(string input)
 {
 	std::unordered_multimap<char, char> graph = parse(input);
 	auto res1 = topological_min_sort(graph);
