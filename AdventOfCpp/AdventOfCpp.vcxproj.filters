@@ -39,6 +39,9 @@
     <ClInclude Include="2018\08.h">
       <Filter>Header Files\2018</Filter>
     </ClInclude>
+    <ClInclude Include="2018\06.h">
+      <Filter>Header Files\2018</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -54,6 +57,9 @@
       <Filter>Source Files\2018</Filter>
     </ClCompile>
     <ClCompile Include="2018\08.cpp">
+      <Filter>Source Files\2018</Filter>
+    </ClCompile>
+    <ClCompile Include="2018\06.cpp">
       <Filter>Source Files\2018</Filter>
     </ClCompile>
   </ItemGroup>
